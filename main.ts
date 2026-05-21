@@ -46,11 +46,6 @@ basic.forever(function () {
         } else {
         	
         }
-        if (Input_Controller == 4) {
-            bitbot.go(BBDirection.Reverse, 60)
-        } else {
-        	
-        }
     }
 })
 basic.forever(function () {
@@ -81,7 +76,7 @@ basic.forever(function () {
     basic.pause(1000)
     basic.showLeds(`
         # # # # #
-        # . . . .
+        # . . . #
         # . # # #
         # . . . #
         # # # # #
